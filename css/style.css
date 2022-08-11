@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
+  scroll-behavior: smooth;
 }
 
 a:hover {
@@ -1373,27 +1374,6 @@ a:hover {
   list-style: none;
 }
 
-.footer__contact ul::before {
-  content: "1002";
-  position: absolute;
-
-  font-weight: 800;
-  font-size: 19px;
-  line-height: 23px;
-  color: #ffffff;
-  top: 40%;
-  left: 100%;
-}
-
-.footer__contact ul::after {
-  content: "";
-  position: absolute;
-  width: 1px;
-  height: 80px;
-  background: #787878;
-  top: 4%;
-  right: 10%;
-}
 
 .footer__contact ul li {
   margin-bottom: 8px;
@@ -2322,10 +2302,6 @@ body {
   color: #000;
 }
 
-.flex-column {
-  margin-top: 70px;
-}
-
 .event__item {
   margin-bottom: 20px;
 }
@@ -2461,7 +2437,8 @@ body {
 
 .searchitem__main {
   display: flex;
-  align-items: center;
+  align-items: start;
+  justify-content: space-around;
 }
 
 .searchitem__image {
