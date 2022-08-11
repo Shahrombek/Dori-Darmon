@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.container {
+  width: 1530px;
+  margin: 0 auto;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+  color: #000;
+}
+
+input {
+  border: none;
+  outline: none;
+}

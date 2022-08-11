@@ -1,0 +1,39 @@
+footer {
+  /* background: #202426; */
+}
+.container-footer {
+  width: 1530px;
+  margin: 0 auto;
+}
+.footer__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer__right {
+  flex: 5;
+}
+.footer__left {
+  flex: 7;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+}
+
+.footer__right h3 {
+  font-weight: 700;
+  font-size: 25px;
+  /* color: #FFFFFF; */
+  margin-bottom: 21px;
+}
+.footer__right p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  /* color: #FFFFFF;     */
+}
+
+.footer__right ul{
+    
+}
