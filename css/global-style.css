@@ -301,8 +301,7 @@ width: 100%;
   animation: anime 0.3s ease-in-out 1;
 }
 
-.company__wrapper__body .maxsize img {
-}
+
 @keyframes anime {
   0% {
     transform: scale(0.2);
