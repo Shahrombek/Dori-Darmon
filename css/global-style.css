@@ -403,3 +403,40 @@
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
+
+/* //////////////////////////// */
+/* important-facts */
+
+.facts .item{
+  margin-bottom: 30px;
+}
+.facts .item h6 {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 125%;
+  color: #000;
+  margin-bottom: 15px;
+}
+.facts .item > div {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  gap: 15px;
+}
+.facts .item .btn-download {
+  background: #3715a6;
+  border-radius: 6px;
+  padding: 10px 15px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 125%;
+  color: #fff;
+  margin-bottom: 0;
+}
+.facts .item span {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 125%;
+  color: #717171;
+  letter-spacing: 0.01em;
+}
