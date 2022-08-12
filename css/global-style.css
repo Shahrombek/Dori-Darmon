@@ -156,11 +156,10 @@
   transform: rotate(180deg);
 }
 
-
 .search__item__wrapper__body .btn-down {
   transform: rotate(0);
 }
-.search__item__wrapper__body .scroll-tab{
+.search__item__wrapper__body .scroll-tab {
   height: 100%;
   display: flex;
   align-items: center;
@@ -168,10 +167,125 @@
   flex-direction: column;
 }
 
-.search__item__wrapper__body #parent{
+.search__item__wrapper__body #parent {
   transition: all 0.3s;
 }
-.search__item__wrapper__body .tab__item{
+.search__item__wrapper__body .tab__item {
   overflow: hidden;
   height: 315px;
 }
+
+.company {
+  margin-bottom: 200px;
+}
+.company__wrapper {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  gap: 30px;
+}
+.company__wrapper .company__wrapper__tab {
+  flex: 1;
+  padding-top: 50px;
+}
+.company__wrapper .company__wrapper__body {
+  flex: 3;
+}
+
+.company__wrapper__tab .flex-column .nav-link {
+  padding: 15px 0;
+  font-weight: 500;
+  font-size: 18px;
+  color: #000;
+  border-bottom: 0.8px solid #e6e6e6;
+  position: relative;
+}
+
+.company__wrapper__tab .flex-column .active {
+  border-bottom: 0.8px solid #e6e6e6 !important;
+}
+
+.company__wrapper__tab .flex-column .active::before {
+  content: "";
+  position: absolute;
+  left: -30px;
+  top: 50%;
+  transform: translateY(-50%);
+  min-width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: #2f2483;
+  transition: 0.3s;
+}
+
+.company__wrapper__body h3 {
+  font-weight: 800;
+  font-size: 35px;
+  margin-bottom: 5px;
+}
+.company__wrapper__body .full-size {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.company__wrapper__body .full-size button {
+  border: none;
+  outline: none;
+  text-align: center;
+  font-weight: 500;
+  font-size: 16px;
+  background: #eff1f4;
+  border-radius: 6px;
+  padding: 9px 11px;
+}
+.company__wrapper__body .full-size button .fa-maximize {
+  margin-left: 20px;
+  margin-top: 1px;
+}
+
+.company__wrapper__body .company-table img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.company__wrapper__body .company-table .btn-exit {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  box-shadow: 0px 1.53px 12px rgba(0, 0, 0, 0.1);
+  padding: 0;
+  display: none;
+}
+
+.company__wrapper__body .maxsize .btn-exit {
+  display: block;
+  position: fixed;
+  top: 55px;
+  right: 35%;
+  z-index: 13;
+}
+.company__wrapper__body .maxsize {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 12;
+  width: 100%;
+  height: 100vh;
+  animation: anime 0.3s ease-in-out 1;
+}
+
+.company__wrapper__body .maxsize img {
+}
+@keyframes anime {
+  0% {
+    transform: scale(0.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
